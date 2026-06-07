@@ -1,0 +1,486 @@
+body{
+    margin: 0;
+}
+
+/* NAVIGATION */
+
+
+.navbar.navbar-expand-lg{
+    background-color: white !important;
+    padding: 0 !important;
+}
+.img.img1{
+    margin:0 !important;
+    padding:0 !important;
+}
+.items{
+  margin-left: 10rem;
+}
+.items a{
+  margin-left: 2rem;
+  color:black !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+  
+}
+.weather{
+  text-decoration: none !important;
+  color: black;
+  font-size: 25px !important;
+  font-weight: bold !important;
+  margin-left: 1rem;
+}
+
+.navbar{
+  height:6rem;
+  width:100%;
+  background-color: rgb(146, 212, 146);
+
+}
+.navbar-brand{
+  margin-top: 2rem;
+  margin-left: 5rem;
+  color:white;
+}
+input{
+  border-radius: 20px !important;
+  width: 40rem !important;
+  margin-right: 15rem !important;
+
+}
+/* Sidebar */
+.sidebar {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(75, 122, 75);
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* padding-top: 60px; */
+  }
+ 
+  
+  
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white !important;
+    cursor: pointer;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#028090;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  .ram{
+    width:15rem;
+    height:15rem;
+   
+    background-color: white;
+    margin-top:3rem;
+    margin-left: 1rem;
+    border-radius: 30px;
+  }
+
+  .fname , .fnumber{
+    margin-left: 3rem;
+    font-size: larger;
+    font-weight: 500;
+    }
+    .fname{
+      margin-top: 1.5rem;
+    }
+    .ram img{
+        border-radius: 50px;
+        width: 6rem;
+        height: 5.5rem;
+        margin-left: 4rem;
+        margin-top: 1rem;
+        border: solid 6px #386641;
+      }
+
+  .crop{
+  
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+  .seed{
+  
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+  .soil{
+   
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+  .view{
+   
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+  .lang{
+   
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+
+
+
+
+
+/* MANDI PRICE */
+
+.part1{
+    background-color: #6A994E;
+    display: flex;
+    height: 25vh;
+}
+
+.mandipriceimg{
+    width: 200px !important;
+}
+
+.image1{
+  width: 170px !important;
+}
+
+
+/* SATELLITE PROPERTY */
+
+.satellitediv{
+    background-color: white;
+    width: 20%;
+    height: 9rem;
+    border-radius: 3rem !important;
+    margin-left: 9rem;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.satellite{
+    width: 100%;
+    border-radius: 80%;
+    height: 8rem;
+    margin-left: 0.4rem;
+    margin-top: 0.6rem;
+}
+
+.sateliteimage{
+    width: 45%;
+}
+
+.satellitetext{
+    width: 5rem !important;
+    margin-left: 1.2rem;
+    margin-top: 2.1rem;
+    font-size: xx-large;
+   margin-right: 0.8rem !important;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+/* SOIL TESTING */
+
+
+.soiltestingdiv{
+    background-color: white;
+    width: 20%;
+    height: 9rem;
+    border-radius: 3rem !important;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.soiltesting{
+    width: 100%;
+    border-radius: 80%;
+    height: 8rem;
+    margin-left: 0.4rem;
+    margin-top: 0.6rem;
+}
+
+.soiltestingimage{
+    width: 45%;
+}
+
+.soiltestingtext{
+    width: 5rem !important;
+    margin-left: 1.2rem;
+    margin-top: 2.1rem;
+    font-size: xx-large;
+   margin-right: 0.8rem !important;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+
+/* ADD CROP */
+
+.addcropdiv{
+    background-color: white;
+    width: 20%;
+    height: 9rem;
+    border-radius: 3rem !important;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.addcrop{
+    width: 100%;
+    border-radius: 80%;
+    height: 8rem;
+    margin-left: 0.4rem;
+    margin-top: 0.6rem;
+}
+
+.addcropimage{
+    width: 45%;
+}
+
+.addcroptext{
+    width: 5rem !important;
+    margin-left: 1.2rem;
+    margin-top: 2.1rem;
+    font-size: xx-large;
+   margin-right: 0.8rem !important;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+
+/* PART 2 */
+
+
+
+.column {
+  float: left;
+  width: 50% !important;
+  height: 60%;
+}
+.card1{
+  width: 70%;
+  margin-left: 6rem;
+  height: 100%;
+
+}
+
+/* CROP CALENDER */
+
+.heading1{
+  font-size: xx-large;
+  margin-top: 0.7rem;
+}
+.calenderbody{
+  background-color: white;
+  width: 100%;
+  height: 30rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+.bodynav{
+  display: flex;
+  background-color: #A7C957;
+  height: 4rem;
+  width: 100%;
+   border-top-left-radius: 2rem;
+   border-top-right-radius: 2rem;
+}
+.subhead{
+  padding-left: 1rem;
+  
+}
+.subhead1{
+font-size: x-large;
+color: white;
+
+}
+.subhead2{
+  font-size: medium;
+  color: white;
+}
+
+ 
+.wheat{
+  width: 18%;
+  border-radius: 70px;
+  margin-left: 15rem;
+  margin-top: 0.2rem;
+  height: 85%;
+}
+
+
+
+.cropimage{
+  width: 32.6rem;
+}
+
+.calenderfooter{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.calenderfooter1{
+  font-size: x-large;
+}
+.calenderfooter2{
+  font-size: x-large;
+}
+
+
+
+
+
+.card2{
+  width: 70%;
+  margin-left: 6rem;
+  height: 100%;
+
+}
+.heading2{
+  font-size: xx-large;
+  margin-top: 0.7rem;
+}
+.plan{
+  background-color: white;
+  width: 100%;
+  height: 30rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+.planhead{
+  color: white;
+  font-size: xx-large;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+}
+
+/* TOGGLE BUTTON */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-top: 1rem;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #bfe2b3;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #093a06;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.irrigationtype{
+  color: white;
+  font-size: large;
+  margin-left: 7rem;
+ 
+}
+
+.fieldmap{
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+}
+
+.qualityreport{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1.4rem;
+}
+
+.npk , .ph {
+  border-radius: 20px;
+}

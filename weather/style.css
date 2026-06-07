@@ -1,0 +1,190 @@
+.navbar.navbar-expand-lg{
+    background-color: white !important;
+    padding: 0 !important;
+}
+.img.img1{
+    margin:0 !important;
+    padding:0 !important;
+}
+.items{
+  margin-left: 10rem;
+}
+.items a{
+  margin-left: 2rem;
+  color:black !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+  
+}
+.weather{
+  text-decoration: none !important;
+  color: black;
+  font-size: 25px !important;
+  font-weight: bold !important;
+  margin-left: 1rem;
+}
+
+.navbar{
+  height:6rem;
+  width:100%;
+  background-color: rgb(146, 212, 146);
+
+}
+.navbar-brand{
+  margin-top: 2rem;
+  margin-left: 5rem;
+  color:white;
+}
+input{
+  border-radius: 20px !important;
+  width: 40rem !important;
+  margin-right: 15rem !important;
+
+}
+/* Sidebar */
+.sidebar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(75, 122, 75);
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* padding-top: 60px; */
+  }
+ 
+  
+  
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white !important;
+    cursor: pointer;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#028090;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  .ram{
+    width:15rem;
+    height:15rem;
+   
+    background-color: white;
+    margin-top:3rem;
+    margin-left: 1rem;
+    border-radius: 30px;
+  }
+  .crop{
+  
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+  .seed{
+  
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+  .soil{
+   
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+  .view{
+   
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+  .lang{
+   
+    width:15rem;
+    height: 2rem;
+    margin-top:8rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+
+/* weather */
+.search{
+  border: 1px solid black;
+  width:40%;
+  height: 30rem;
+  overflow: hidden;
+  margin:auto;
+  background:white;
+  
+  
+}
+.searchbtn{
+  border-radius: 50%;
+
+}
+.loc{
+  
+  padding: 0 !important;
+  margin:0 !important;
+  height: 2rem;
+ width:30rem !important;
+}
+.temp{
+ 
+  font-weight: lighter !important;
+ 
+}
+.city{
+  margin-left: 4rem;
+  font-weight: lighter !important;
+  
+}
+.humidity{
+  font-weight: lighter !important;
+  margin:auto;
+}
+.wind{
+  font-weight: lighter !important;
+  margin:auto;
+}
+.col{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  text-align: left;
+  margin:auto;
+}
+.weather{
+  margin-left:5rem;
+
+}
+

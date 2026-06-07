@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Sarpan Hybrid F1 Kashmiri Mirch Seeds , Kashmiri Mirch ke Beej, Best Quality",
+        "price": 2000.00,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":"Dried Vijaylaxmi Fresh Wheat Seed 10%|Shelf Life: 1 Year|Moisture: 10%",
+        "price":  1280.00 ,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":"Pusa Sawani 1kg||Okra||High nutrient value ",
+        "price": 2999.00,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":"Syngenta Saaho (TO 3251) Tomato Seeds",
+        "price": 1279,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":"Chilli Umang F1 Hybrid - Shine Brand Seed, Mirchi Ka Beej, Vegetable Seeds.",
+        "price": 602.75,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":"Iris Hybrid Coriander Vegetable Seeds, Dhaniya Beej, Broad Green Leaves, Excellent Quality (100 Seeds)",
+        "price":179,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":"True Indigo Seed - 1Kg - Indigofera Tinctoria - Neeli Avuri seed",
+        "price":500,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":"INDIA MEETS INDIA BEETROOT Seed (50 per packet)",
+        "price":135,
+        "image": "image/8.png"
+    }
+
+]

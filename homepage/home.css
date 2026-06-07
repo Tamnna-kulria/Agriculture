@@ -1,0 +1,401 @@
+.navbar.navbar-expand-lg{
+    background-color: white !important;
+    padding: 0 !important;
+}
+.img.img1{
+    margin:0 !important;
+    padding:0 !important;
+}
+.items{
+  margin-left: 10rem;
+}
+.items a{
+  margin-left: 2rem;
+  color:black !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+  
+}
+.weather{
+  text-decoration: none !important;
+  color: black;
+  font-size: 25px !important;
+  font-weight: bold !important;
+  margin-left: 1rem;
+}
+
+.navbar{
+  height:6rem;
+  width:100%;
+  background-color: rgb(146, 212, 146);
+
+}
+.navbar-brand{
+  margin-top: 2rem;
+  margin-left: 5rem;
+  color:white;
+}
+input{
+  border-radius: 20px !important;
+  width: 40rem !important;
+  margin-right: 15rem !important;
+
+}
+/* Sidebar */
+.sidebar {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(75, 122, 75);
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* padding-top: 60px; */
+  }
+ 
+  
+  
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white !important;
+    cursor: pointer;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-image: url("image/logoimg.png");
+    background-size:contain;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    height:inherit;
+    width:8rem;
+  }
+  .ram{
+    width:15rem;
+    height:13rem;
+   
+    background-color: white;
+    margin-top:3rem;
+    margin-left: 1rem;
+    border-radius: 30px;
+  }
+  .crop{
+  
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+  .seed{
+  
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+  .soil{
+   
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+  .view{
+   
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+  .lang{
+   
+    width:15rem;
+    height: 2rem;
+    margin-top:3rem;
+    border-radius: 10rem;
+    margin-left:1rem;
+    background-color: white;
+    text-align: center;
+  }
+
+
+
+
+
+
+  .container {
+    height: 50vh;
+    width: 100vw;
+    /* max-height: 600px;
+    max-width: 1200px;
+    min-height: 600px;
+    min-width: 1100px; */
+    display: flex;
+    justify-content: space-around;
+       margin-top: 10rem;
+  }
+  
+  .panel {
+    height: 270px;
+    width: 190px;
+    position: relative;
+  
+    &:hover {
+      .card {
+        filter: blur(1.5px);
+      }
+      .card1 {
+        background-size: 115% 115%;
+      }
+      .card2 {
+        background-size: 115% 115%;
+      }
+      .card3 {
+        background-size: 155% 115%;
+      }
+      .title {
+        color: rgba(255, 255, 255, 0.2);
+      }
+      
+      .slide {
+        bottom: 0px;
+      }
+      .ring:before,
+      .ring:after {
+        transform: translateX(-50%) translateY(-50%) rotate(310deg);
+      }
+    }
+  }
+  .ring,.card,.border,.slide,
+  .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ring {
+    color: #fffbf1;
+    position: absolute;
+    top: 40%;
+    margin-left: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 170px;
+  }
+  
+  .card {
+    
+    position: relative;
+    transition: all 1s;
+    height: 400px;
+    width: 350px;
+   
+  }
+  
+  .card1 {
+    background-image: url("images/croprecommend.jpeg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+  }
+  
+  .card2 {
+    background-image: url("images/disese.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .card3 {
+    background-image: url("images/fertilizers.jpeg");
+    background-repeat: no-repeat;
+    background-size: 140% 100%;
+  }
+  
+  .ring:before,.ring:after {
+    content: "";
+    padding: 0.7em 0.4em;
+    position: absolute;
+    left: 50%;
+    width: 33rem;
+    top: 50%;
+    display: block;
+    border: 5px solid #50c9c3;
+    border-radius: 50%;
+    transition: transform 1s;
+    transform: translateX(-50%) translateY(-50%) rotate(50deg);
+  }
+  
+  .ring:before {
+    border-color: rgb(235, 235, 235) rgb(235, 235, 235) rgba(0, 0, 0, 0)
+      rgba(0, 0, 0, 0);
+    z-index: -1;
+  }
+  
+  .ring:after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(235, 235, 235)
+      rgb(235, 235, 235);
+  }
+  
+  p {
+    text-align: center;
+    position: absolute;
+    font-family: "Playfair Display";
+  }
+  
+  .title {
+    font-size: 35px;
+    font-weight: 700;
+    top: 18px;
+    color: black;
+  }
+  
+  .para {
+    bottom: 0;
+    font-size: 30px;
+    font-family: "Raleway";
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .border {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    height: 380px;
+    width: 330px;
+       overflow: hidden;
+  }
+  
+  .slide {
+    height: 380px;
+    width: 330px;
+    position: absolute;
+       bottom: -400px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: bottom 1s;
+    /* flex-direction: column; */
+  }
+
+
+  .buyhead{
+    font-size: xx-large;
+    margin-left: 7rem;
+  }
+  .supplies{
+    margin-left: 7rem;
+    width: 85%;
+    margin-top: 2rem;
+    height: 44rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+
+  .reporthead{
+    font-size: xx-large;
+    margin-left: 7rem;
+    margin-top: 3rem;
+  }
+  .supplies{
+    margin-left: 7rem;
+    width: 85%;
+    margin-top: 2rem;
+    height: 44rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  }
+
+
+    
+  .fname , .fnumber{
+    margin-left: 3rem;
+    font-size: larger;
+    font-weight: 500;
+    }
+    .fname{
+      margin-top: 1.5rem;
+    }
+    .ram img{
+        border-radius: 50px;
+        width: 6rem;
+        height: 5.5rem;
+        margin-left: 4rem;
+        margin-top: 1rem;
+        border: solid 6px #386641;
+      }
+
+/* weather */
+
+      .search{
+        border: 1px solid black;
+        width:40%;
+        height: 30rem;
+        overflow: hidden;
+        margin:auto;
+        background:white;
+        
+        
+      }
+      .searchbtn{
+        border-radius: 50%;
+      
+      }
+      .loc{
+        
+        padding: 0 !important;
+        margin:0 !important;
+        height: 2rem;
+       width:30rem !important;
+      }
+      .temp{
+       
+        font-weight: lighter !important;
+       
+      }
+      .city{
+        margin-left: 4rem;
+        font-weight: lighter !important;
+        
+      }
+      .humidity{
+        font-weight: lighter !important;
+        margin:auto;
+      }
+      .wind{
+        font-weight: lighter !important;
+        margin:auto;
+      }
+      .col{
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        text-align: left;
+        margin:auto;
+      }
+      .weather{
+        margin-left:5rem;
+      
+      }
+      
+      
+  
+  
